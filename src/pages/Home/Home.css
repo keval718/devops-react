@@ -1,0 +1,32 @@
+    .logo-animation {
+    /* Define the animation */
+    display: flex;
+    justify-content: center;
+    position:absolute;
+    top:30%;
+    left:50%;
+    width:0;
+    padding:0;
+    margin:0;
+    background-color:white;
+    animation: stuff 2s infinite alternate  }
+  .logo-hide{
+    display: none;
+  }
+  
+  @keyframes stuff {
+      from {
+         height: 100px;
+       }
+       to {
+         height: 200px;
+       }
+     }
+   
+    body {
+      background-image: url('../../assets/svgs/background.svg');
+      background-repeat: repeat;
+      background-size: cover;
+      background-position: center center;
+    }
+ 

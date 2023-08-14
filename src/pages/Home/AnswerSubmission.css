@@ -1,0 +1,76 @@
+.player{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 20%;
+    left:40%;
+    cursor: pointer;
+ }
+ .player-main{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    top: 56%;
+    left:41%;
+ }
+
+ .player-button{
+  margin-top: 10px;
+  height: 40px;
+  border-radius: 40px;
+  background: linear-gradient(90deg, #C42D63 3.35%, #800F5C 70.5%);
+  color: white;
+  font-weight: bold;
+   font-size: 18px;
+   border-color: rgba(128, 15, 92, 1);
+   border: 4px solid rgba(128, 15, 92, 1);
+   cursor: pointer;
+   width: 261px;
+
+ }
+ .player-input{
+    height: 40px;
+    width: 261px;
+    background-color: white;
+    color: rgba(128, 15, 92, 1);
+    font-size: 16px;
+    font-weight: 800;
+    font-family: inter;
+    border-color: rgba(128, 15, 92, 1);
+    border: 4px solid rgba(128, 15, 92, 1);
+    border-radius: 40px;
+    padding: 10px;
+ }
+ input::placeholder {
+    font-weight: bold;
+    opacity: 1;
+    font-size: 12px;
+    color:rgba(128, 15, 92, 1);
+    text-align: center;
+    margin-bottom: 5px;
+}
+.wrong-answer-text{
+   font-weight: bold;
+   font-family: Lexend;
+   color:rgba(196, 45, 99, 1);
+   text-align: center;
+   margin-bottom: 20px;
+   position: relative;
+   right: 20%;
+}
+.correct-answer-text{
+   font-weight: bold;
+   font-family: Lexend;
+   color:rgba(196, 45, 99, 1);
+   text-align: center;
+   margin-bottom: 20px;
+}
+.heardbars-action{
+   height: 60px;
+   position: absolute;
+   left: 40%;
+   top: 38%;
+}

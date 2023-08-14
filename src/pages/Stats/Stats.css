@@ -1,0 +1,21 @@
+.heading-stats{
+    height: 100%;
+    width: 617px;
+    background: linear-gradient(90deg, #C42D63 3.35%, #800F5C 70.5%);
+    text-align: center;
+    font-family: 'Lexend';
+    color: white;
+    padding: 10px;
+}
+.css-dsuxgy-MuiTableCell-root{
+    padding: 20px 20px;
+    font-family: 'Lexend';
+    color: rgba(196, 45, 99, 1);
+    font-size: 20px;
+}
+.css-dv0mq-MuiTableCell-root{
+    color:white;
+    font-size: 14px;
+    font-family: 'Lexend';
+
+}
